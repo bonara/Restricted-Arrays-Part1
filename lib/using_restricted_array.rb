@@ -77,7 +77,7 @@ end
 
 # Reverses the values in the integer array in place
 # Time complexity: O(n), where n is the number of values in the array
-# Space complexity: O(n), where n is the number of values in the array
+# Space complexity: O(1)
 def reverse(array, length)
   i = 0
   z = length -1 
